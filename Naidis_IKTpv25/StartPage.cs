@@ -53,8 +53,30 @@ namespace Naidis_IKTpv25
             Console.Write(Osa2_funktsioonid.Juku());//vaikimisi nimi= juku
             Console.Write(Osa2_funktsioonid.Juku(nimi));
             Console.Write(Osa2_funktsioonid.Juku("Python"));
+            // Pinginaabrid
+            Console.WriteLine("\nPinginaabrid:");
+            Console.WriteLine(Osa2_funktsioonid.Pinginaabrid());
+            // Ristkülik + remont
+            Console.WriteLine("\nRistkülik ja remont:");
+            Osa2_funktsioonid.RistkylikJaRemont();
+            // 30% soodustusega alghind
+            Console.WriteLine("\nAlghinna arvutamine 30% soodustuse järgi:");
+            Osa2_funktsioonid.Alghind();
+            // Temperatuur
+            Console.WriteLine("\nTemperatuuri kontroll:");
+            Osa2_funktsioonid.Temperatuur();
+            // Pikkus
+            Console.WriteLine("\nPikkuse kontroll:");
+            Osa2_funktsioonid.Pikkus();
+            // Pikkus + sugu
+            Console.WriteLine("\nPikkus ja sugu:");
+            Osa2_funktsioonid.PikkusJaSugu();
+            // Pood
+            Console.WriteLine("\nPoe ostude arvutamine:");
+            Osa2_funktsioonid.Pood();
+
+            Console.WriteLine("\nKõik ülesanded on lõpule viidud!");
 
         }
-
     }
 }
