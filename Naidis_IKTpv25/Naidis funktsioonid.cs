@@ -9,6 +9,7 @@ namespace Naidis_IKTpv25
         public static float Summa(float arv1, float arv2)
         {
             return arv1 + arv2;
+        }
             public static string Kuu_nimetus(int kuu_nr)
         {
             string kuu = "";
