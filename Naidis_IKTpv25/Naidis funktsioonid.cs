@@ -10,10 +10,9 @@ namespace Naidis_IKTpv25
         {
             return arv1 + arv2;
         }
-            public static string Kuu_nimetus(int kuu_nr)
+        public static string Kuu_nimetus(int kuu_nr)
         {
             string kuu = "";
-
             switch (kuu_nr)
             {
                 case 1: kuu = "Jaanuar"; break;
@@ -63,4 +62,3 @@ namespace Naidis_IKTpv25
         }
     }
 }
-
