@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -59,10 +59,9 @@ namespace Naidis_IKTpv25
                 hoo = "???";
             }
             return hoo;
-
         }
 
-
+        
         public static void Muuda_element_massiivis(int[] arvud)
         {
             Console.WriteLine("Kuhu: ");
